@@ -1,0 +1,5 @@
+<application>
+  <component name="PhoneGapSettings">
+    <option name="executablePath" value="$USER_HOME$/.nvm/versions/node/v10.15.0/bin/ionic" />
+  </component>
+</application>
