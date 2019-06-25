@@ -1,0 +1,3 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="UnselectPreviousOccurrence" />
+</keymap>
