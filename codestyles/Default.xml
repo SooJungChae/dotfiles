@@ -24,10 +24,7 @@
     <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
-      <option name="USE_TAB_CHARACTER" value="true" />
-      <option name="SMART_TABS" value="true" />
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SCSS">
