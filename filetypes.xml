@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="sort_kNumber" type="HTML" />
       <mapping pattern="inheritanceSharePercent" type="JavaScript" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="ddd" type="PLAIN_TEXT" />
