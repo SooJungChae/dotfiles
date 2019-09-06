@@ -1,0 +1,13 @@
+<templateSet group="React">
+  <template name="rnc" value="import React, { Component } from 'react';&#10;import { StyleSheet, View } from 'react-native';&#10;&#10;export default class $componentName$ extends Component {&#10;    render() {&#10;        return (&#10;            &lt;View&gt;&#10;                $END$&#10;            &lt;/View&gt;&#10;        );&#10;    }&#10;}" description="React Native Component format" toReformat="false" toShortenFQNames="true">
+    <variable name="componentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rns" value="const styles = StyleSheet.create({&#10;    $END$&#10;});" description="React Native Stylesheet" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
