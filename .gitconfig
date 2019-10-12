@@ -1,0 +1,32 @@
+[core]
+	excludesfile = /Users/soodiamond/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Users/soodiamond/Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = SoojungChae
+	email = naan_ace@naver.com
+[commit]
+	template = /Users/soodiamond/.stCommitMsg
+[alias]
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+
+	b = branch
+	bd = branch -d
+	cb = "! f() { git checkout -b $1; }; f"
+	df = "!# Select diff file; \n\
+		git diff $(git status-select) "
+	s = status
+	pl = pull
+
+	branch-select = "!# Select branch; \n\
+		git branch | fzf"
+	status-select = "!# Select files;\n\
+		git s -s | fzf -m | awk '{print $2}' "
+	a = "!# Add selected filed; \n\
+		git add $(git status-select)"
+	ch = "!# Checkout selected branch; \n\
+		git checkout $(git branch-select)"
