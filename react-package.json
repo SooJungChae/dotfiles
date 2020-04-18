@@ -1,0 +1,67 @@
+{
+  "name": "package json for react project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@datepicker-react/styled": "^2.1.4",
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "immutable": "^4.0.0-rc.12",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "prettier": "^1.19.1",
+    "query-string": "^6.11.1",
+    "react": "^16.9.0",
+    "react-addons-update": "^15.6.2",
+    "react-app-polyfill": "^1.0.2",
+    "react-cookie": "^4.0.1",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.2",
+    "react-sortable-tree": "^2.7.1",
+    "react-sortablejs": "^2.0.11",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "styled-components": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
+    "rules": {
+      "import/no-unresolved": 0,
+      "no-alert": 0,
+      "no-shadow": 0,
+      "jsx-a11y/label-has-associated-control": 0,
+      "react/prefer-stateless-function": 0,
+      "react/jsx-filename-extension": 0,
+      "react/jsx-one-expression-per-line": 0,
+      "react/prop-types": 0
+    },
+    "env": {
+      "browser": true
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
