@@ -3,10 +3,10 @@
     <extensionMap>
       <mapping pattern="sort_kNumber" type="HTML" />
       <mapping pattern="inheritanceSharePercent" type="JavaScript" />
+      <mapping pattern="TextInput.js" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="hash_player.js" type="PLAIN_TEXT" />
       <mapping pattern="ddd" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
-      <mapping pattern="TextInput.js" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
       <mapping pattern="artiContentWrap" type="Vue.js" />
