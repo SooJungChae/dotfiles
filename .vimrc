@@ -6,6 +6,8 @@ set cindent
 set shiftwidth=4	" shift를 4칸으로 ( >, >>, <, << 등의 명령어)
 set tabstop=4		" tab을 4칸으로
 
+set hlsearch " 찾은 곳 highlight
+
 " Syntax highlighting
 colorscheme wombat256
 if has("syntax")
